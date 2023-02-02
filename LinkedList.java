@@ -4,7 +4,6 @@ class LinkedList {
     static class Node {
         int data;
         Node next;
-       
 
         Node(int data) {
             this.data = data;
@@ -18,7 +17,7 @@ class LinkedList {
         if (head == null) {
             head = new Node(data);
         }
-        
+
         new_node.next = null;
         Node last = head;
         while (last.next != null) {
@@ -27,6 +26,10 @@ class LinkedList {
             return;
 
         }
+    }
+
+    static void display() {
+
     }
 
     public static void main(String[] args) {
